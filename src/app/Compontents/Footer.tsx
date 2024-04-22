@@ -1,58 +1,41 @@
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faTwitter, faInstagram, faFacebookF
-} from "@fortawesome/free-brands-svg-icons";
+import FacebookIcon from "./icons/FacebookIcon";
+import InstagramIcon from "./icons/InstagramIcon";
+import TwitterIcon from "./icons/TwitterIcon";
 
 
 export default function Footer() {
     return (
-        <div className="w-full  px-8 py-11 bg-[rgb(246,235,223)]">
-            <div className="container flex justify-center align-middle flex-col gap-6 ">
-
-                <ul className="flex justify-around align-middle gap-5 mx-auto md:w-[50%]  ">
+        <div style={{ backgroundImage: 'url("/img//icons/footer.svg")' }} className="bg-cover bg-center py-[7%]  flex justify-center items-center">
+            <div className="flex justify-center items-center flex-col gap-6 w-[80%]">
+                
+                <ul className="flex justify-around items-center text-nowrap w-full sm:w-[50%]">
                     <li >
-                        <Link href={""} className="text-[rgb(127,131,65)] ">Contact us</Link>
+                        <Link href={""} className="text-[rgb(127,131,65)] text-xl">Contact us</Link>
                     </li>
                     <li>
-                        <Link href={""} className="text-[rgb(127,131,65)] ">About us</Link>
+                        <Link href={""} className="text-[rgb(127,131,65)] text-xl">About us</Link>
                     </li>
                     <li>
-                        <Link href={""} className="text-[rgb(127,131,65)] ">Copy rights</Link>
+                        <Link href={""} className="text-[rgb(127,131,65)] text-xl">Copy rights</Link>
                     </li>
                 </ul>
 
-                <ul className="flex justify-around align-middle gap-5 mx-auto md:w-[30%]  ">
-                    <li className="flex bg-slate-600 w-[]">
-                        <Link href={""}  >
-                            <FontAwesomeIcon icon={faInstagram} />
+                <ul className="flex justify-around items-center w-[25%] gap-5 mx-auto">
+                    <li className="p-[2%] flex justify-center items-center bg-[#7f8341] rounded-full "   >
+                        <Link className="text-sm" href={""}  >
+                            <InstagramIcon fill="#F6F3E2" />
 
                         </Link>
                     </li>
-                    <li style={{
-                        backgroundColor: 'rgb(127, 131, 65)',
-                        display: 'flex',
-                        height: '35px',
-                        width: '35px',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        borderRadius: '50%',
-                    }}>
+                    <li className="p-[2%] flex justify-center items-center bg-[#7f8341] rounded-full">
                         <Link href={""} >
-                            <FontAwesomeIcon icon={faTwitter} />
+                            <FacebookIcon fill="#F6F3E2" />
                         </Link>
                     </li>
-                    <li style={{
-                        backgroundColor: 'rgb(127, 131, 65)',
-                        display: 'flex',
-                        height: '35px',
-                        width: '35px',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        borderRadius: '50%',
-                    }}  >
+                    <li className="p-[2%] flex justify-center items-center bg-[#7f8341] rounded-full" >
                         <a href={""}>
-                            <FontAwesomeIcon icon={faFacebookF} />
+                            <TwitterIcon fill="#F6F3E2" />
                         </a>
                     </li>
                 </ul>

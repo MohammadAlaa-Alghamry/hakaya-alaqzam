@@ -1,5 +1,3 @@
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,22 +10,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: rgb(246,235,223);
-    --background-end-rgb: rgb(246,235,223);
-    
+    --main-background-color: rgb(246, 235, 223);
   }
 }
 
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--main-background-color);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @layer utilities {

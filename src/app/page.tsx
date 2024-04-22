@@ -1,18 +1,19 @@
 'use client';
 
 import Nav from "./Compontents/Nav";
-import Section1 from "./Compontents/home/Section1";
-import Section2 from "./Compontents/home/Section2";
-import Section3 from "./Compontents/home/Section3";
 import Footer from "./Compontents/Footer";
+import GoodMorning from "./Compontents/GoodMorning";
+import ReadMore from "./Compontents/ReadMore";
+import OurProducts from "./Compontents/OurProducts";
 
-export default function Home() {
+
+export default function Page() {
   return (
-    <main className="flex  flex-col items-center justify-between ">
+    <main  >
       <Nav></Nav>
-      <Section1></Section1>
-      <Section2></Section2>
-      <Section3></Section3>
+      <GoodMorning></GoodMorning>
+      <ReadMore></ReadMore>
+      <OurProducts></OurProducts>
       <Footer></Footer>
     </main>
   );
