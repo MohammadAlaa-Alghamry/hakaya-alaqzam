@@ -8,7 +8,7 @@ export default function ReadMore() {
                     <h2 className="text-[rgb(127,131,65)] text-3xl text-center  mx-auto">Hakaya Al-Aqzam</h2>
                     <p className="text-center w-[80%] mx-auto my-4 text-[rgb(62,54,37)]"> Lorem ipsum dolor sit amet consectetur. Scelerisque egestas risus velit quisque ut iaculis magnis et. A purus libero volutpat ultricies tortor gravida donec.</p>
 
-                    <button className=" mx-auto py-[2%] px-[4%] bg-[rgb(127,131,65)] text-white font-semibold  shadow-md hover:bg-[rgb(127,131,65)] focus:outline-none ">Read More</button>
+                    <button className=" mx-auto py-[2%] px-[4%] bg-[rgb(127,131,65)] text-white shadow-md hover:bg-[rgb(127,131,65)] focus:outline-none ">Read More</button>
 
                 </div>
 
