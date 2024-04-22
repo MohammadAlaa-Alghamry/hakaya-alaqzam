@@ -5,13 +5,15 @@ export default function GoodMorning() {
     return (
         <div
             style={{ backgroundImage: 'url("/img/home/hero-img.png")' }}
-            className="h-full w-full flex justify-center items-center bg-cover bg-left-top aspect-[20/13] p-10">
+            className="h-full w-full flex justify-center items-center bg-cover bg-left-top aspect-[21/13] p-10">
 
-            <div className=" flex flex-col sm:flex-row  justify-between items-center">
-                <div className="flex justify-center items-center flex-col w-full sm:w-[50%] gap-7">
-                    <h1 className="text-[rgb(127,131,65)]  text-5xl text-center ">Good Morning To</h1>
-                    <h1 className="text-[rgb(127,131,65)]  text-5xl text-center ">You</h1>
-                    <p className="text-center text-[rgb(62,54,37)] text-lg "> <strong className="text-2xl" > “</strong>  Lorem ipsum dolor sit amet consectetur. Scelerisque egestas risus velit quisque ut iaculis magnis et. A purus libero volutpat ultricies tortor gravida donec. <strong className="text-2xl" > “</strong></p>
+            <div className="w-full flex flex-col sm:flex-row  justify-between items-center h-full">
+                <div className="flex justify-start items-center flex-col w-full h-[full] sm:w-[50%] gap-7">
+                    <div className="text-[rgb(127,131,65)] text-center text-[4vw]">
+                        <h1>Good Morning To</h1>
+                        <h1>You</h1>
+                    </div>
+                    <p className="text-center text-[rgb(62,54,37)] text-[1.5vw] "> <strong className="text-2xl" > “</strong>  Lorem ipsum dolor sit amet consectetur. Scelerisque egestas risus velit quisque ut iaculis magnis et. A purus libero volutpat ultricies tortor gravida donec. <strong className="text-2xl" > “</strong></p>
                 </div>
                 <div
                     style={{ backgroundImage: 'url("img/home/girl-sitting-on-a-mushroom.png")' }}
@@ -25,7 +27,7 @@ export default function GoodMorning() {
                 objectFit="cover" 
                 alt="Tiny girl sitting on a mushroom"
                 /> */}
-                
+
             </div>
 
         </div>

@@ -12,9 +12,9 @@ export default function ReadMore() {
                 <div className="flex flex-col sm:flex-row justify-center items-center h-full">
 
                     <div className="flex flex-col justify-center items-center w-full h-full sm:w-[50%] gap-7">
-                        <h2 className="text-[#7f8341] text-7xl text-center text-wrap">Hakaya Al-Aqzam</h2>
+                        <h2 className="text-[#7f8341] text-[4vw] text-center text-wrap">Hakaya Al-Aqzam</h2>
                         <div className="flex flex-col items-center justify-center">
-                            <p className="text-center w-[80%]  text-2xl text-[rgb(62,54,37)]"> Lorem ipsum dolor sit amet consectetur. Scelerisque egestas risus velit quisque ut iaculis magnis et. A purus libero volutpat ultricies tortor gravida donec.</p>
+                            <p className="text-center w-[80%]  text-[1.5vw] text-[rgb(62,54,37)]"> Lorem ipsum dolor sit amet consectetur. Scelerisque egestas risus velit quisque ut iaculis magnis et. A purus libero volutpat ultricies tortor gravida donec.</p>
                         </div>
                         <button
                             className="w-[20%] bg-[#7f8341] text-white shadow-md hover:bg-[rgb(127,131,65)] focus:outline-none ">
