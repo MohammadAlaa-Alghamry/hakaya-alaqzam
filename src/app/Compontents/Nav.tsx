@@ -1,7 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faBars } from '@fortawesome/free-solid-svg-icons'; // Import faBars icon
 import Link from 'next/link';
 
 const Nav = () => {
@@ -18,9 +16,9 @@ const Nav = () => {
           />
           {/* Toggle button for mobile */}
           <div className="md:hidden">
-            <button className="text-[rgb(62,54,37)] hover:text-[rgb(127,131,65)] px-3 py-2 rounded-md text-lg font-medium">
-              <FontAwesomeIcon icon={faBars} /> {/* Use the faBars icon */}
-            </button>
+            {/* <button className="text-[rgb(62,54,37)] hover:text-[rgb(127,131,65)] px-3 py-2 rounded-md text-lg font-medium">
+              <FontAwesomeIcon icon={faBars} /> 
+            </button> */}
           </div>
         </div>
         {/* Toggle button and dropdown on the right */}
@@ -54,10 +52,10 @@ const Nav = () => {
           </select>
           {/* User Icon (Placeholder for login) */}
           <Link href="">
-            <FontAwesomeIcon
+            {/* <FontAwesomeIcon
               className="text-[rgb(62,54,37)] hover:text-[rgb(127,131,65)] text-2xl"
               icon={faUser}
-            />
+            /> */}
           </Link>
         </div>
       </div>

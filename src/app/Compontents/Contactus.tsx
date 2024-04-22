@@ -6,7 +6,7 @@ import TwitterIcon from "./icons/TwitterIcon";
 export default function ContactUs() {
     return (
 
-        <div style={{ backgroundImage: 'url("/img/icons/home/sec3-bg-img.svg")' }} className="bg-cover flex justify-center items-center" >
+        <div style={{ backgroundImage: 'url("/img/home/sec3-bg-img.svg")' }} className="bg-cover flex justify-center items-center" >
             <div className="flex flex-col sm:flex-row justify-between items-start w-[80%] mx-auto py-8 ">
 
                 <div className="  flex flex-col w-full sm:w-[50%] justify-center sm:justify-start items-center sm:items-start ">

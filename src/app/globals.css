@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @font-face {
+  font-family: "NotoSansArabic";
+  src: url("../public/fonts/Noto_Sans_Arabic/NotoSansArabic-VariableFont_wdth\,wght.ttf");
+  font-weight: 100 1000;
+} */
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -10,16 +16,28 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-background-color: rgb(246, 235, 223);
+    --main-background-color: #f6ebdf;
   }
+}
+
+html {
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: var(--main-background-color);
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin: 0;
+  padding: 0;
 }
 
 @layer utilities {

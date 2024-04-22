@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <div style={{ backgroundImage: 'url("/img//icons/footer.svg")' }} className="bg-cover bg-center py-[7%]  flex justify-center items-center">
             <div className="flex justify-center items-center flex-col gap-6 w-[80%]">
-                
+
                 <ul className="flex justify-around items-center text-nowrap w-full sm:w-[50%]">
                     <li >
                         <Link href={""} className="text-[rgb(127,131,65)] text-xl">Contact us</Link>

@@ -2,7 +2,7 @@
 
 import Nav from "../Compontents/Nav";
 import Footer from "../Compontents/Footer";
-import OurProducts from "../Compontents/OurProducts";
+import OurProducts from "../Compontents/home/OurProducts";
 import AboutUs from "../Compontents/Aboutus";
 import React from "react";
 
