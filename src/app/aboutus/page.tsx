@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <main >
       <Nav></Nav>
-    <AboutUs></AboutUs>
+      <AboutUs></AboutUs>
       <OurProducts></OurProducts>
       <Footer></Footer>
     </main>
