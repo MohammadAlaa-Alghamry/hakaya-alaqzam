@@ -4,11 +4,11 @@ export default function ReadMore() {
     return (
         <div
         style={{ backgroundImage: 'url("/img/home/hero-img.png")' ,transform: 'scale(1, -1)'} }
-            className="relative h-full w-full flex justify-center items-center bg-cover bg-left-top  aspect-[16/13] ">
+            className="relative w-full flex justify-center items-center bg-cover bg-left-top">
             <div className="w-full bg-gradient-to-b from-[#f6ebdf] to-transparent absolute top-0 left-0"></div>
             <div
-                style={{  position: 'absolute', top: '0px',transform: 'scale(1, -1)' }}
-                className=" read-more-hero-mobile sm:book-read-more-hero flex justify-center items-center w-full aspect-[16/16] bg-cover">  {/* top-[-15vh] */}
+                style={{transform: 'scale(1, -1)' }}
+                className=" read-more-hero-mobile sm:book-read-more-hero flex justify-center items-center h-[1000px] w-full bg-cover">  {/* top-[-15vh] */}
                 <div className="flex flex-col sm:flex-row justify-center items-center h-full">
 
                     <div className="flex flex-col justify-center items-center w-full h-full sm:w-[50%] gap-7">

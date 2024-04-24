@@ -5,9 +5,9 @@ export default function GoodMorning() {
     return (
         <div
             style={{ backgroundImage: 'url("/img/home/hero-img.png")' }}
-            className="h-full w-full flex justify-center items-center bg-cover bg-left-top aspect-[14/21] sm:aspect-[21/13] sm:p-10">
+            className="w-full flex justify-center items-center bg-cover bg-left-top sm:p-10">
 
-            <div className="w-full flex flex-col sm:flex-row  sm:justify-between items-center h-full">
+            <div className="w-full flex flex-col sm:flex-row  sm:justify-between items-start h-full">
                 <div className="flex justify-start items-center flex-col w-full h-[full] md:w-[50%] gap-7">
                     <div className="text-[rgb(127,131,65)] text-center text-2xl sm:text-4xl md:text-5xl">
                         <h1>Good Morning To</h1>
