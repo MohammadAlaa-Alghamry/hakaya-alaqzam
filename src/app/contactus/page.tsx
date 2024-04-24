@@ -11,7 +11,6 @@ export default function Page() {
         <main >
             <Nav></Nav>
             <ContactUs></ContactUs>
-
             <Footer></Footer>
         </main>
     );

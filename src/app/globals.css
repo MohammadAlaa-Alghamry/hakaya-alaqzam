@@ -45,3 +45,55 @@ body {
     text-wrap: balance;
   }
 }
+.bg-girl-sitting-img-mobile {
+  background-image: url('/img/home/girl-sitting-img-mobile.png');
+}
+
+@media (min-width: 640px) {
+  .sm\:bg-girl-sitting-on-a-mushroom {
+    background-image: url('/img/home/girl-sitting-on-a-mushroom.png');
+  }
+}
+
+.open-qutation-mobile {
+  background-image: url('/img/home/open-qutation-mobile.svg');
+}
+
+@media (min-width: 640px) {
+  .sm\:open-qutation {
+    background-image: url('/img/home/open-qutation-img.svg');
+  }
+}
+
+.closed-qutation-mobile {
+  background-image: url('/img/home/closed-qutation-mobile.svg');
+}
+
+@media (min-width: 640px) {
+  .sm\:closed-qutation {
+    background-image: url('/img/home/close-qutation-img.svg');
+  }
+}
+
+.book-read-more-mobile {
+  background-image: url('/img/home/book-read-with-shadow-mobile.png');
+}
+
+@media (min-width: 640px) {
+  .sm\:book-read-more {
+    background-image: url('/img/home/book-read-more-with-shadow.png');
+  }
+}
+
+
+.read-more-hero-mobile {
+  background-image: url('/img/home/read-more-mobile.png');
+ 
+}
+
+@media (min-width: 640px) {
+  .sm\:book-read-more-hero {
+    background-image: url('/img/home/read-more.png');
+  
+  }
+}

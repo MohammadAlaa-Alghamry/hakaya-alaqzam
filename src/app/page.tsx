@@ -10,8 +10,8 @@ import OurProducts from "./Compontents/home/OurProducts";
 export default function Page() {
   return (
     // <main className="h-full w-[1440px] max-w-[1440px] min-w-[1440px] aspect-[3/3]">
-    // <main className="h-full w-[1920px] max-w-[1920px]">
-    <main className="h-full w-full">
+     <main className="h-full w-[1920px] max-w-[1920px]">
+   
       {/* <div className="bg-white"> */}
       <div className="bg-[#f6ebdf]">
         <Nav />
