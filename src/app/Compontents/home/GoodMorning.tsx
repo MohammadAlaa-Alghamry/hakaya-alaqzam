@@ -5,14 +5,17 @@ export default function GoodMorning() {
     return (
         <div
             style={{ backgroundImage: 'url("/img/home/hero-img.png")' }}
-            className="w-full flex justify-center items-center bg-cover bg-left-top sm:p-10">
+            className="w-full flex justify-center items-center bg-cover bg-left-top sm:p-10" >
 
-            <div className="w-full flex flex-col sm:flex-row  sm:justify-between items-start h-full">
+            <div className="w-full flex flex-col sm:flex-row gap-5 sm:gap-0 sm:justify-between items-start h-full">
+
                 <div className="flex justify-start items-center flex-col w-full h-[full] md:w-[50%] gap-7">
+
                     <div className="text-[rgb(127,131,65)] text-center text-2xl sm:text-4xl md:text-5xl">
                         <h1>Good Morning To</h1>
                         <h1>You</h1>
                     </div>
+
                     <div className="flex ">
                     <div 
                     className="open-qutation-mobile sm:open-qutation bg-right-top bg-no-repeat w-[20%]  ">
@@ -26,19 +29,11 @@ export default function GoodMorning() {
                     </div>
                     
                 </div>
-                <div
-                    
-                    className="bg-girl-sitting-img-mobile sm:bg-girl-sitting-on-a-mushroom bg-cover w-[70%] sm:w-[40%] aspect-square">
+
+                <div className="  mx-auto bg-girl-sitting-img-mobile sm:bg-girl-sitting-on-a-mushroom bg-cover w-[50%] sm:w-[40%] aspect-square">
                 </div>
 
-                {/* <Image 
-                src={"/img/home/girl-sitting-on-a-mushroom.png"}
-                height={700}
-                width={700}
-                objectFit="cover" 
-                alt="Tiny girl sitting on a mushroom"
-                /> */}
-
+                
             </div>
 
         </div>

@@ -77,23 +77,30 @@ body {
 
 .book-read-more-mobile {
   background-image: url('/img/home/book-read-with-shadow-mobile.png');
+  /* height:285px; */
 }
 
 @media (min-width: 640px) {
   .sm\:book-read-more {
     background-image: url('/img/home/book-read-more-with-shadow.png');
+    /* height:570px; */
   }
 }
 
 
 .read-more-hero-mobile {
+
   background-image: url('/img/home/read-more-mobile.png');
- 
+  height:898px;
+   background-size:contain;
+  background-repeat: round; 
 }
 
 @media (min-width: 640px) {
   .sm\:book-read-more-hero {
     background-image: url('/img/home/read-more.png');
-  
+    height:1119px;
+    background-size:cover;
+   
   }
 }
