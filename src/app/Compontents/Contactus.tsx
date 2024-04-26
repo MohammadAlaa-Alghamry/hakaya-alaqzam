@@ -38,10 +38,8 @@ export default function ContactUs() {
                     <p className=" text-[rgb(62,54,37)]"> Or send us a message </p>
 
                     <form className="py-[4%] flex flex-col gap-4">
-                        <input className="bg-[#E9DFC8] py-[3%] px-[4%] rounded-md focus:outline-none placeholder-[#666666]" placeholder="Full name">
-                        </input>
-                        <input className="bg-[#E9DFC8] py-[3%] px-[4%] rounded-md focus:outline-none placeholder-[#666666]" placeholder="Email address">
-                        </input>
+                        <input className="bg-[#E9DFC8] py-[3%] px-[4%] rounded-md focus:outline-none placeholder-[#666666]" placeholder="Full name"/>
+                        <input className="bg-[#E9DFC8] py-[3%] px-[4%] rounded-md focus:outline-none placeholder-[#666666]" placeholder="Email address"/>
                         <textarea className="bg-[#E9DFC8] py-[3%] px-[4%] rounded-md focus:outline-none placeholder-[#666666] resize-none" placeholder="Message..."></textarea>
                         <button className=" mx-auto py-[2%] px-[10%] bg-[rgb(127,131,65)] text-white   shadow-md hover:bg-[rgb(127,131,65)] focus:outline-none ">Send</button>
                     </form>

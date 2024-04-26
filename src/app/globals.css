@@ -34,7 +34,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
 
   margin: 0;
   padding: 0;
@@ -102,5 +102,17 @@ body {
     height:1119px;
     background-size:cover;
    
+  }
+}
+
+.Sign-up-mobile {
+  background-image: url('/img/SignUp/sign-up-bg-mobile.png');
+  background-position: center;
+}
+
+@media (min-width: 640px) {
+  .sm\:Sign-up {
+    background-image: url('/img/SignUp/Sign-up.png');
+    background-position:inherit;
   }
 }

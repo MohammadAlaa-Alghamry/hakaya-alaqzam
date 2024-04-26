@@ -9,9 +9,9 @@ import ContactUs from "../Compontents/Contactus";
 export default function Page() {
     return (
         <main >
-            <Nav></Nav>
-            <ContactUs></ContactUs>
-            <Footer></Footer>
+            <Nav/>
+            <ContactUs/>
+            <Footer/>
         </main>
     );
 }
