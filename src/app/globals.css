@@ -45,6 +45,7 @@ body {
     text-wrap: balance;
   }
 }
+
 .bg-girl-sitting-img-mobile {
   background-image: url('/img/home/girl-sitting-img-mobile.png');
 }
@@ -91,28 +92,26 @@ body {
 .read-more-hero-mobile {
 
   background-image: url('/img/home/read-more-mobile.png');
-  height:898px;
-   background-size:contain;
-  background-repeat: round; 
+  height: 898px;
+  background-size: contain;
+  background-repeat: round;
 }
 
 @media (min-width: 640px) {
   .sm\:book-read-more-hero {
     background-image: url('/img/home/read-more.png');
-    height:1119px;
-    background-size:cover;
-   
+    height: 1119px;
+    background-size: cover;
+
   }
 }
 
 .Sign-up-mobile {
   background-image: url('/img/SignUp/sign-up-bg-mobile.png');
-  background-position: center;
 }
 
 @media (min-width: 640px) {
   .sm\:Sign-up {
     background-image: url('/img/SignUp/Sign-up.png');
-    background-position:inherit;
   }
 }
