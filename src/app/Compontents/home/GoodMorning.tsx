@@ -1,5 +1,4 @@
-import Image from "next/image"
-import Nav from "../layout/Nav"
+import NavBarOffset from "../NavBarOffset"
 import HeroText from "./HeroText/HeroText"
 
 
@@ -9,6 +8,7 @@ export default function GoodMorning() {
             className="w-full bg-[url('/img/home/hero-img.png')] aspect-[0.606] sm:aspect-[1.44] bg-cover" >
             <div className="w-full h-full flex flex-col justify-between items-center sm:h-fit">
 
+                <NavBarOffset />
                 <div debug-name="navbar-placeholder" className=" bg-transparent w-full h-[5rem]"></div>
                 <div className="w-full h-full sm:h-fit flex flex-col justify-around items-center sm:flex-row gap-5 sm:gap-0 sm:px-10 sm:mt-[6rem] sm:justify-between sm:items-center ">
                     <div className="flex h-fit justify-around items-center flex-col w-full md:w-[50%] gap-7">

@@ -1,9 +1,10 @@
+import NavBarOffset from "./NavBarOffset";
 
 
 export default function AboutUs() {
     return (
         <div style={{ backgroundImage: 'url("/img/AboutUS/sec1-bg-img.svg")' }} className="bg-cover flex justify-center items-center" >
-            <div debug-name="navbar-placeholder" className=" bg-transparent w-full h-[5rem]"></div>
+            <NavBarOffset />
             <div className="flex flex-col sm:flex-row justify-between items-center w-[80%] mx-auto py-8">
                 <div className="flex flex-col w-full sm:w-[50%] justify-center sm:justify-start items-center sm:items-start ">
                     <h2 className="text-[rgb(127,131,65)] text-3xl  ">About US</h2>
