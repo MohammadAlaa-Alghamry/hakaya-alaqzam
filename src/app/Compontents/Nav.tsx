@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Nav = () => {
   return (
-    <nav className="bg-[rgb(246,235,223)] py-4 w-full ">
+    <nav className="bg-[rgb(246,235,223, 0)] py-4 w-full ">
       <div className="container mx-auto flex items-center justify-between px-">
         {/* Logo on the left */}
         <div className="flex items-center justify-between md:w-10 sm:w-full space-x-4">

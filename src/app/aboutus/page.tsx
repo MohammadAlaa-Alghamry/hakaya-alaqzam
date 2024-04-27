@@ -10,10 +10,8 @@ import React from "react";
 export default function Page() {
   return (
     <main >
-      <Nav/>
       <AboutUs/>
       <OurProducts/>
-      <Footer/>
     </main>
   );
 }
