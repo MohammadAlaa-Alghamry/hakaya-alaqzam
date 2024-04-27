@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Nav = () => {
   return (
-    <nav className="bg-[rgb(246,235,223, 0)] py-4 w-full ">
+    <nav className="absolute bg-[rgb(246,235,223, 0)] py-4 w-full ">
       <div className="container mx-auto flex items-center justify-between px-">
         {/* Logo on the left */}
         <div className="flex items-center justify-between md:w-10 sm:w-full space-x-4">
@@ -42,11 +42,11 @@ const Nav = () => {
           >
             Contact
           </a>
-        
+
         </div>
         <div className="hidden md:flex items-center space-x-4">
-            {/* Language Dropdown */}
-            <select className="bg-[rgb(246,235,223)] border-none rounded-md py-2 px-3 text-lg leading-5 font-medium text-[rgb(62,54,37)] hover:text-[rgb(127,131,65)]">
+          {/* Language Dropdown */}
+          <select className="bg-[rgb(246,235,223)] border-none rounded-md py-2 px-3 text-lg leading-5 font-medium text-[rgb(62,54,37)] hover:text-[rgb(127,131,65)]">
             <option value="en">En</option>
             <option value="ar">AR</option>
           </select>

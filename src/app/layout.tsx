@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 
-import Nav from "./Compontents/Nav";
-import Footer from "./Compontents/Footer";
+import Nav from "./compontents/layout/Nav";
+import Footer from "./compontents/Footer";
 
 
 // const inter = Inter({ subsets: ["latin"] });
@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={" h-fit w-full max-w-[1920px]"}>
-        {/* <Nav /> */}
+        <Nav />
         <div className="h-full w-full">
           {children}
         </div>

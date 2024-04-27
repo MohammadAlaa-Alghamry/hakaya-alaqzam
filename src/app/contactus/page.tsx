@@ -1,9 +1,9 @@
 'use client';
 
-import Nav from "../Compontents/Nav";
+import Nav from "../Compontents/layout/Nav";
 import Footer from "../Compontents/Footer";
 import React from "react";
-import ContactUs from "../Compontents/Contactus";
+import ContactUs from "../Compontents/ContactUs";
 
 
 export default function Page() {

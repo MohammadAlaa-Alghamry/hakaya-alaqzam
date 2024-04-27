@@ -1,12 +1,14 @@
 'use client';
 
-import Nav from "../Compontents/Nav";
+import Nav from "../Compontents/layout/Nav";
 
 export default function Page() {
     return (
         // <main className="h-full w-[1440px] max-w-[1440px] min-w-[1440px] aspect-[3/3]">
         //  <main className="h-full w-[1920px] max-w-[1920px]">
         <div className="w-full h-full flex flex-col justify-center items-center">
+            <div debug-name="navbar-placeholder" className=" bg-transparent w-full h-[5rem]"></div>
+
             <div
             > Hello </div>
             <div
