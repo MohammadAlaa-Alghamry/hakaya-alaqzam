@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function SideNav() {
     return (
 
-        <div className=" flex flex-col justify-between py-10 w-[20%] h-[80vh] ">
+        <div className=" hidden sm:flex flex-col justify-between py-10 w-[20%] h-[80vh]">
 
             <ul className="flex flex-col gap-5">
                 <li> <Link href={""} className="text-[#666666] focus:text-black "> My Profile</Link> </li>

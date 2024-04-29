@@ -24,7 +24,7 @@ export default function ReadMore() {
                         </button>
                     </div>
                         <div  
-                            className=" book-read-more-mobile sm:book-read-more bg-contain bg-no-repeat bg-center w-[50%] h-full sm:h-[50%]  ">
+                            className="bg-[url('/img/home/book-read-with-shadow-mobile.png')] sm:bg-[url('/img/home/book-read-more-with-shadow.png')] bg-contain bg-no-repeat bg-center w-[50%] h-full sm:h-[50%]  ">
                         </div>
 
                         

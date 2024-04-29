@@ -18,7 +18,7 @@ export default function GoodMorning() {
                         </div>
                         <HeroText />
                     </div>
-                    <div className="bg-girl-sitting-img-mobile sm:bg-girl-sitting-on-a-mushroom bg-cover w-[90%] sm:w-[40%] aspect-[1.047]">
+                    <div className="bg-[url('/img/home/girl-sitting-img-mobile.png')] md:bg-[url('/img/home/girl-sitting-on-a-mushroom.png')] bg-cover w-[90%] sm:w-[40%] aspect-[1.047]">
                     </div>
 
 

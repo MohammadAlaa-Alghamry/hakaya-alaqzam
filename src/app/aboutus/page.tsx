@@ -1,9 +1,7 @@
 'use client';
 
-import Nav from "../compontents/layout/Nav";
-import Footer from "../compontents/Footer";
-import OurProducts from "../compontents/home/OurProducts";
-import AboutUs from "../compontents/AboutUs";
+import OurProducts from "../Compontents/home/OurProducts";
+import AboutUs from "../Compontents/AboutUs";
 import React from "react";
 
 

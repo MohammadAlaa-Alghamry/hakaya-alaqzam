@@ -5,7 +5,7 @@ import GoogleIcon from "../Compontents/icons/Google";
 export default function SignUp() {
     return (
 
-        <div className="flex flex-col justify-center items-center  py-[5%] w-[100%] sm:w-[80%]  mx-auto">
+        <div className="flex flex-col justify-center items-center  py-[5%] w-[100%] sm:w-[60%]  mx-auto">
             <h1 className=" text-[#3E3625] text-2xl">Create Your Account</h1>
 
             <form className="flex flex-col justify-between py-10 w-[50%] mx-auto gap-6">
