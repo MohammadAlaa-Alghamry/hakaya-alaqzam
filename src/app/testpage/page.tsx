@@ -1,5 +1,5 @@
 'use client';
-import NavBarOffset from "../compontents/NavBarOffset";
+
 
 export default function Page() {
     return (

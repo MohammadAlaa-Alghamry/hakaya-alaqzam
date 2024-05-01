@@ -37,7 +37,7 @@ export default function SignUp() {
 
                 <button className="w-full py-[1%] px-[3%] bg-[#7f8341] text-white   shadow-md hover:bg-[rgb(127,131,65)] focus:outline-none ">Continue</button>
 
-                <p className="text-base text-[#3E3625] text-center w-[90%] mx-auto">By continuing, you agree to Our <span className="underline underline-offset-2">Conditions of Use</span>  and <span className="underline underline-offset-2">Privacy Notice</span>  .</p>
+                <p className="text-sm md:text-base text-[#3E3625] text-center w-[90%] mx-auto">By continuing, you agree to Our <span className="underline underline-offset-2">Conditions of Use</span>  and <span className="underline underline-offset-2">Privacy Notice</span>  .</p>
             </form >
 
 
@@ -65,11 +65,6 @@ export default function SignUp() {
             <p className="text-[#3E3625] mt-6 ">Already have an account? <a href="" className="text-[#7f8341]">Log in</a> </p>
         </div>
 
-
-
-
     )
-
-
 };
 
