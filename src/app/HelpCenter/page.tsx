@@ -1,7 +1,8 @@
 'use client';
 
 import React from "react";
-import Payment from "./payment";
+import HelpCenter from "./HelpCenter";
+
 
 
 export default function Page() {
@@ -10,8 +11,7 @@ export default function Page() {
         <main className="w-[100%] h-full ">
           <div style={{ backgroundImage: 'url("/img/home/tree-leaves.png")' }}
         className=" bg-cover bg-right-bottom">
-          
-          <Payment/>
+          <HelpCenter/>
            </div>
         </main>
     );

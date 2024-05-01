@@ -5,6 +5,7 @@ import "./globals.css";
 
 import Nav from "./compontents/layout/Nav";
 import Footer from "./compontents/Footer";
+import NavBarOffset from "./Compontents/NavBarOffset";
 
 
 // const inter = Inter({ subsets: ["latin"] });
@@ -25,6 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={" h-fit w-full max-w-[1920px]"}>
         <Nav />
+        <NavBarOffset />
         <div className="h-full w-full">
           {children}
         </div>
