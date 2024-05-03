@@ -3,7 +3,7 @@ function toggleDiv() {
     const secondDiv: HTMLElement | null = document.getElementById("secondDiv");
 
     if (firstDiv && secondDiv) {
-       
+
         firstDiv.style.display = "none";
         secondDiv.style.display = "block";
     }
@@ -15,6 +15,7 @@ export default function PaymentDetails() {
 
             <div className="w-[50%] bg-[#F6F3E2] flex flex-col p-5">
 
+                <a className="w-[2%] mb-3" href=""> <img src="/img/icons/arrow-icon.png" alt="" /></a>
                 <h1 className="text-[#3E3625]  text-2xl mb-10">Payment Details</h1>
 
                 <div className="flex flex-col w-[90%] mx-auto ">
