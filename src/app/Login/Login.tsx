@@ -17,7 +17,7 @@ export default function Login() {
 
                 <div className="flex w-[100%] sm:w-[95%] mx-auto  flex-col gap-2">
                     <label className="text-[#3E3625]">Password</label>
-                    <input className="bg-[#E9DFC8]  rounded-md focus:outline-none py-[1%] px-[2%] "  />
+                    <input className="bg-[#E9DFC8]  rounded-md focus:outline-none py-[1%] px-[2%] " />
                 </div>
 
 
